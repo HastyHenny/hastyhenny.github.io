@@ -26,7 +26,51 @@ nav {
 }
 
 article{
-    background-color: slategrey;
+    background-color: #303030;
+	color: #999;
+	text-shadow: -1px -1px 0px #181818;
+}
+
+.row > .col-6 {
+    width: 50%;
+}
+
+.row > .col-12 {
+    width: 100%;
+}
+
+.row > .col-12-small {
+    width: 100%;
+}
+
+.wrapper.style4 form input[type=text],
+.wrapper.style4 form input[type=password],
+.wrapper.style4 form select,
+.wrapper.style4 form textarea {
+	border: none;
+	background: #282828;
+}
+
+.wrapper.style4 form input[type=text]:focus,
+.wrapper.style4 form input[type=password]:focus,
+.wrapper.style4 form select:focus,
+.wrapper.style4 form textarea:focus {
+	background: #252525;
+}
+
+ul.actions {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.actions li {
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding-left: 0;
+}
+
+ul.actions li:first-child {
+    margin-left: 0;
 }
 
 input[type="button"],
@@ -112,4 +156,5 @@ input[type="button"],
 			button.alt:active,
 			.button.alt:active {
 				background-color: #3f3f3f;
-			}
+            }
+            
