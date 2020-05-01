@@ -58,7 +58,7 @@ nav {
 .intro-text h1 {
 	font-size: 44px;
 	font-weight: 500;
-	background: linear-gradient(to right, #494964, #6f6f89);
+	background: linear-gradient(to right, #000000, #3c3c49);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -168,6 +168,7 @@ nav {
 	.big-circle {
 		opacity: 0.2;
 	}
+
 }
 
 /* Form */
