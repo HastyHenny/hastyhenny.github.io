@@ -27,19 +27,20 @@ img.big-circle, img.medium-circle, img.small-circle{
     font-size: 40px;
 }
 
-.skills{
-    padding-top: 200px;
-}
-
 .skills h3{
     text-decoration: underline;
-    font-size: 24px;
+    padding-top: 50px;
 }
 
-.skills p{
-    text-decoration: dotted;
+.edu h3{
+    text-decoration: underline;
 }
 
-.edu{
-    padding-top: 600px;
+.job h3{
+    text-decoration: underline;
 }
+
+.vol h3{
+    text-decoration: underline;
+}
+

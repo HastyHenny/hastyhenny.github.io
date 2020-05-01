@@ -26,7 +26,24 @@ nav {
 }
 
 .myresume{
-    padding: 50px;
+	padding: 50px;
+	text-align: center;
+}
+
+.skills h3{
+	text-decoration: underline;
+}
+
+.edu h3{
+	text-decoration: underline;
+}
+
+.job h3{
+	text-decoration: underline;
+}
+
+.vol h3{
+	text-decoration: underline;
 }
 
 .big-circle {
