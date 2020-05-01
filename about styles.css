@@ -35,7 +35,9 @@ div{
   }
   
   .profile-image-wrapper img {
-    width: 100%;
+	width: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
   }
   
   .profile-content-wrapper {
@@ -67,4 +69,37 @@ div{
 	bottom: 0%;
 	left: 20%;
 	z-index: -1;
+}
+
+@media screen and (max-width: 767px){
+	img{
+		
+	}
+
+	.profile-image-wrapper img {
+		width: 150px;
+		height: 500px;
+		padding-top: 125px;
+	  }
+
+	.profile-content-wrapper{
+		flex: 1;
+	}
+
+	.profile-content-wrapper h1 {
+		font-size: 16px;
+	  }
+	
+	.profile-content-wrapper p{
+		font-size: 12px;
+	}
+
+	.two-column-wrapper{
+		text-align: center;
+	}
+
+	div{
+		padding: 5px;
+	}
+	
 }

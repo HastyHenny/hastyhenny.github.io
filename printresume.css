@@ -19,3 +19,27 @@ img.big-circle, img.medium-circle, img.small-circle{
     display: none;
 }
 
+.myresume{
+    text-align: center;
+}
+
+.myresume h1{
+    font-size: 40px;
+}
+
+.skills{
+    padding-top: 200px;
+}
+
+.skills h3{
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.skills p{
+    text-decoration: dotted;
+}
+
+.edu{
+    padding-top: 600px;
+}
